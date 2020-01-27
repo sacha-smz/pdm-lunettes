@@ -54,7 +54,7 @@ $(document).ready(function(){
 	let noseCenter = [];
 
 	const transparentImg = new Image();
-    transparentImg.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=';
+	transparentImg.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=';
 	
 	updateDomElements();
 	

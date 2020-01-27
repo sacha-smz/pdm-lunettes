@@ -76,7 +76,7 @@
 			</div>
 			
 			<div id="img-upload" class="col-xs-12">
-				<button class="btn btn-primary" type="button"><i class="fa fa-file-image-o" aria-hidden="true"></i><span class="hidden-xs">&nbsp;&nbsp;Nouvelle image</span></buton>
+				<button class="btn btn-primary" type="button"><i class="fa fa-file-image-o" aria-hidden="true"></i><span class="hidden-xs">&nbsp;&nbsp;Nouvelle image</span></button>
 			</div>
 			
 			<div id="zoom-rot" class="col-xs-12 col-sm-11 text-right">
@@ -95,11 +95,11 @@
 				
 				<div id="select-mode" class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 off">
 					<div id="frame-mode" class="col-xs-6">
-						<button class="btn btn-info btn-block" type="button">Monture</buton>
+						<button class="btn btn-info btn-block" type="button">Monture</button>
 					</div>
 					
 					<div id="card-mode" class="col-xs-6">
-						<button class="btn btn-info btn-block" type="button">Carte</buton>
+						<button class="btn btn-info btn-block" type="button">Carte</button>
 					</div>
 				</div>
 				
@@ -107,7 +107,7 @@
 					<div class="col-xs-12 col-sm-4"><input type="number" min="10" max="90" step="0.5" class="form-control text-center" id="coteA" placeholder="A" autocomplete="off"></div>
 					<div class="col-xs-12 col-sm-4"><input type="number" min="2" max="30" step="0.5" class="form-control text-center" id="coteD" placeholder="D" autocomplete="off"></div>
 					<div class="col-xs-12 col-sm-4"><input type="number" min="10" max="90" step="0.5" class="form-control text-center" id="coteB" placeholder="B" autocomplete="off"></div>
-					<div class="col-xs-12 top10"><input id="frame-input" type="text" class="form-control" autocomplete="off" autocomplete="off"></div>
+					<div class="col-xs-12 top10"><input id="frame-input" type="text" class="form-control" autocomplete="off"></div>
 					<div id="frame-list" class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3 no-padding off">
 						@foreach($frames as $frame)
 						<div class="ref">{{ $frame->ref }}</div>
@@ -135,11 +135,11 @@
 		
 			<div id="user-right-eye" class="set-pupils no-padding off"></div>
 			<div id="user-left-eye" class="set-pupils no-padding off"></div>
-			<img id="drag-user-right-eye" src="{{ url('/assets/icons/drag-right.png') }}" class="user-drags set-pupils off" draggable="true">
-			<img id="drag-user-left-eye" src="{{ url('/assets/icons/drag-left.png') }}" class="user-drags set-pupils off" draggable="true">
-			<img id="drag-frame-top-left" src="{{ url('/assets/icons/drag-frame-tl.png') }}" class="set-frame frame-drags off" draggable="true">
-			<img id="drag-frame-bottom-right" src="{{ url('/assets/icons/drag-frame-br.png') }}" class="set-frame frame-drags off" draggable="true">
-			<img id="drag-nose-center" src="{{ url('/assets/icons/drag-nose-center.png') }}" class="set-frame frame-drags off" draggable="true">
+			<img id="drag-user-right-eye" src="{{ url('/assets/icons/drag-right.png') }}" alt="drag right eye" class="user-drags set-pupils off" draggable="true">
+			<img id="drag-user-left-eye" src="{{ url('/assets/icons/drag-left.png') }}" alt="drag left eye" class="user-drags set-pupils off" draggable="true">
+			<img id="drag-frame-top-left" src="{{ url('/assets/icons/drag-frame-tl.png') }}" alt="drag top left frame" class="set-frame frame-drags off" draggable="true">
+			<img id="drag-frame-bottom-right" src="{{ url('/assets/icons/drag-frame-br.png') }}" alt="drag bottom right frame" class="set-frame frame-drags off" draggable="true">
+			<img id="drag-nose-center" src="{{ url('/assets/icons/drag-nose-center.png') }}" alt="drag nose" class="set-frame frame-drags off" draggable="true">
 			
 			<div id="frame-top-left" class="set-frame no-padding off"></div>
 			<div id="frame-bottom-right" class="set-frame no-padding off"></div>
